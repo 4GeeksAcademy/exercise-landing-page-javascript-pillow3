@@ -1,4 +1,4 @@
-![image](https://github.com/4GeeksAcademy/exercise-landing-page-javascript-pillow3/assets/118123543/8bf2b214-c1ab-495e-8844-0df58d751b26)
+
 
 ![image](https://github.com/4GeeksAcademy/exercise-landing-page-javascript-pillow3/assets/118123543/72fb5ba5-8154-4e6b-a4ee-0d30ccf02c02)
 
