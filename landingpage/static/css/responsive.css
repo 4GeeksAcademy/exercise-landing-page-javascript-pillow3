@@ -1,0 +1,224 @@
+@media (max-width: 1200px){
+    .layout__blog{
+        max-width: 100rem;
+    }
+    .blog__article{
+        height: 50rem;
+    }
+}
+
+@media (max-width: 1000px){
+    .layout__blog{
+        max-width: 80rem;
+    }
+    .blog__article{
+        height: 40rem;
+        overflow: hidden;
+    }
+
+    .blog__text-box{
+        padding: 5rem;
+    }
+    .review__img{
+        width: 15rem;
+    }
+}
+
+@media (max-width: 800px){
+    .layout__services,
+    .layout__reviews{
+        padding: 4rem;
+    }
+    .layout__blog{
+        max-width: 60rem;
+    }
+
+    .blog__article{
+        height: 30rem;
+    }
+
+    .blog__text-box{
+        max-width: 30rem;
+        padding: 2rem;
+    }
+    .blog__title{
+        font-size: 2.4rem;
+    }
+    .blog__description{
+        font-size: 1.5rem;
+    }
+    .review__img{
+        width: 10rem;
+    }
+
+}
+
+@media (max-width: 600px){
+    .banner__title{
+        font-size: 3rem;
+        padding: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .banner__form,
+    .contact__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner__email,
+    .contact__input{
+        min-height: 56px;
+        margin-bottom: 2rem;
+        width: auto;
+    }
+    .contact__submit{
+        justify-content: center;
+    }
+
+    .layout__services,
+    .layout__reviews{
+        padding: 5rem 3rem;
+    }
+    .icon{
+        font-size: 5rem;
+    }
+    .service__title,
+    .blog__title{
+        font-size: 1.6rem;
+    }
+    .service__description,
+    .blog__description{
+        font-size: 1.5rem;
+    }
+
+    .services__grid,
+    .reviews__container{
+        gap: 1.2rem;
+    }
+
+    .reviews__header{
+        font-size: 1.9rem;
+    }
+
+    .review__title{
+        font-size: 1.6rem;
+    }
+
+    .review__description{
+        font-size: 1.5rem;
+    }
+    
+    .reviews__review{
+        gap: 1rem;
+    }
+    
+    .review__img{
+        width: 8rem;
+    }
+    .contact__title{
+        font-size: 2.8rem;
+    }
+
+    /* FOOTER */
+    .footer__grid{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer__links{
+        flex-wrap: wrap;
+    }
+
+    .footer__menu{
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    .footer__description{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .footer__logos{
+        display: inline-block;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 500px){
+
+    .banner__content{
+        padding: 0;
+    }
+
+    .menu__navbar{
+        padding: 1rem;
+        margin: 0 1rem;
+    }
+    .layout__blog{
+        max-width: 45rem;
+    }
+
+    .blog__article{
+        height: 22.5rem;
+    }
+
+    .blog__text-box{
+        padding: 2rem;
+    }
+    .blog__title{
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+    }
+    .blog__description{
+        font-size: 1.1rem;
+    }
+
+    .reviews__title{
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .review__description{
+        font-size: 1.2rem;
+    }
+    .review__img{
+        width: 6rem;
+    }
+
+    .service__description{
+        font-size: 1.2rem;
+    }
+
+    .layout__services{
+        padding: 3rem;
+    }
+
+    .services__grid{
+        align-items: inherit;
+    }
+
+
+    .blog__description{
+        font-size: 1rem;
+    }
+    .service__title{
+        font-size: 1.5rem;
+        margin-bottom: 0.2rem;
+    }
+    .icon{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .layout__contact{
+        height: 45vh;
+    }
+
+}
